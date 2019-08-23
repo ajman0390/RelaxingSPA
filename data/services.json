@@ -5,7 +5,8 @@
         "Description": "We will lift, plump, firm and hydrate your face with the finest ingredients.",
         "Price": "250.00",
         "Minutes": "110",
-        "CategoryName": "Skin Care"
+        "CategoryName": "Skin Care",
+        "Image": "skincare1.png"
     },
     {
         "ServiceID": "SKIN2",
@@ -13,7 +14,8 @@
         "Description": "Kale, spinach and other organic things will be applied to your face to make you look years younger.",
         "Price": "120.00",
         "Minutes": "50",
-        "CategoryName": "Skin Care"
+        "CategoryName": "Skin Care",
+        "Image": "skincare3.png"
     },
     {
         "ServiceID": "SKIN3",
@@ -21,7 +23,8 @@
         "Description": "A treatment tailored specifically to your skin care needs",
         "Price": "175.00",
         "Minutes": "80",
-        "CategoryName": "Skin Care"
+        "CategoryName": "Skin Care",
+        "Image": "skincare2.png"
     },
     {
         "ServiceID": "MASS1",
@@ -29,7 +32,8 @@
         "Description": "A Swedish massage for two people",
         "Price": "340.00",
         "Minutes": "80",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "massage2.png"
     },    
     {
         "ServiceID": "MASS2",
@@ -37,7 +41,8 @@
         "Description": "A foot massage, a body scrub, and a hot stone massage to relieve your stress.",
         "Price": "275.00",
         "Minutes": "110",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "massage1.png"
     },    
     {
         "ServiceID": "MASS3",
@@ -45,7 +50,8 @@
         "Description": "The therapist examines your cranial system and releases restrictions in soft tissues.",
         "Price": "250.00",
         "Minutes": "80",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "massage7.png"
     },   
     {
         "ServiceID": "MASS4",
@@ -53,7 +59,8 @@
         "Description": "Stretching, palming and pressure points... you will feel great!",
         "Price": "290.00",
         "Minutes": "80",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "massage3.png"
     },    
     {
         "ServiceID": "MASS5",
@@ -61,7 +68,8 @@
         "Description": "Cradled in a safe side-lying position, gentle techniques sooth baby and mom.",
         "Price": "175.00",
         "Minutes": "50",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "pregnantmassage.png"
     },    
     {
         "ServiceID": "MASS6",
@@ -69,7 +77,8 @@
         "Description": "Two hands isn't enough.  Enjoy twice the relaxation.",
         "Price": "350.00",
         "Minutes": "80",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "fourhandmassage.png"
     },    
     {
         "ServiceID": "MASS7",
@@ -77,7 +86,8 @@
         "Description": "Treat your feet!  The positive energy will flow.",
         "Price": "110.00",
         "Minutes": "50",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "massagefoot.png"
     },    
     {
         "ServiceID": "MASS8",
@@ -85,7 +95,8 @@
         "Description": "Focuses on your back, neck and feet",
         "Price": "140.00",
         "Minutes": "50",
-        "CategoryName": "Massage and Bodywork"
+        "CategoryName": "Massage and Bodywork",
+        "Image": "massage1.png"
     },    
     {
         "ServiceID": "ACU1",
@@ -93,7 +104,8 @@
         "Description": "Stimulates your energy centers.",
         "Price": "280.00",
         "Minutes": "110",
-        "CategoryName": "Acupuncture"
+        "CategoryName": "Acupuncture",
+        "Image": "acupuncture1.png"
     },    
     {
         "ServiceID": "ACU2",
@@ -101,7 +113,8 @@
         "Description": "Focuses on getting your body's inflamation under control.",
         "Price": "140.00",
         "Minutes": "50",
-        "CategoryName": "Acupuncture"
+        "CategoryName": "Acupuncture",
+        "Image": "acupuncture2.png"
     },    
     {
         "ServiceID": "ACU3",
@@ -109,7 +122,8 @@
         "Description": "Tap into more energy by getting better sleep.",
         "Price": "210.00",
         "Minutes": "80",
-        "CategoryName": "Acupuncture"
+        "CategoryName": "Acupuncture",
+        "Image": "acupuncture3.png"
     },    
     {
         "ServiceID": "HAIR1",
@@ -117,7 +131,8 @@
         "Description": "Men's wash, cut and dry.",
         "Price": "100.00",
         "Minutes": "45",
-        "CategoryName": "Hair Salon"
+        "CategoryName": "Hair Salon",
+        "Image": "menshaircut1.png"
     },    
     {
         "ServiceID": "HAIR2",
@@ -125,7 +140,8 @@
         "Description": "Women's wash, cut and dry.",
         "Price": "125.00",
         "Minutes": "60",
-        "CategoryName": "Hair Salon"
+        "CategoryName": "Hair Salon",
+        "Image": "oldwomenshair.png"
     },    
     {
         "ServiceID": "HAIR3",
@@ -133,7 +149,8 @@
         "Description": "We will help you select a new style to completely transform your image!",
         "Price": "210.00",
         "Minutes": "80",
-        "CategoryName": "Hair Salon"
+        "CategoryName": "Hair Salon",
+        "Image": "womenshaircut.png"
     },    
     {
         "ServiceID": "NAIL1",
@@ -141,7 +158,8 @@
         "Description": "Let us make your fingernails look awesome",
         "Price": "140.00",
         "Minutes": "75",
-        "CategoryName": "Nail Salon"
+        "CategoryName": "Nail Salon",
+        "Image": "nail1.png"
     },    
     {
         "ServiceID": "NAIL2",
@@ -149,7 +167,8 @@
         "Description": "Basic pedicure",
         "Price": "75.00",
         "Minutes": "50",
-        "CategoryName": "Nail Salon"
+        "CategoryName": "Nail Salon",
+        "Image": "nail2.png"
     },    
     {
         "ServiceID": "NAIL3",
@@ -157,7 +176,8 @@
         "Description": "Pedicure with hot stone foot/leg massage",
         "Price": "140.00",
         "Minutes": "75",
-        "CategoryName": "Nail Salon"
+        "CategoryName": "Nail Salon",
+        "Image": "nail3.png"
     },    
     {
         "ServiceID": "BODY1",
@@ -165,7 +185,8 @@
         "Description": "Let us sand your skin until the we find the young skin!",
         "Price": "210.00",
         "Minutes": "80",
-        "CategoryName": "Body Treatments"
+        "CategoryName": "Body Treatments",
+        "Image": "sandskin.png"
     },    
     {
         "ServiceID": "BODY2",
@@ -173,7 +194,8 @@
         "Description": "Rejuvinate with a relaxing mud wrap.  Includes a scalp massage.",
         "Price": "120.00",
         "Minutes": "60",
-        "CategoryName": "Body Treatments"
+        "CategoryName": "Body Treatments",
+        "Image": "mud-wrap.png"
     },    
     {
         "ServiceID": "BODY3",
@@ -181,7 +203,8 @@
         "Description": "Relax in a steam chamber.",
         "Price": "75.00",
         "Minutes": "30",
-        "CategoryName": "Body Treatments"
+        "CategoryName": "Body Treatments",
+        "Image": "steam.png"
     },    
     {
         "ServiceID": "BODY4",
@@ -189,6 +212,7 @@
         "Description": "Massage, salt and sugar exfoliation, and then a relaxing bath.",
         "Price": "310.00",
         "Minutes": "110",
-        "CategoryName": "Body Treatments"
+        "CategoryName": "Body Treatments",
+        "Image": "sugar.png"
     }
 ]
