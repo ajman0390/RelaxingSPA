@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Added CSS file-->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Google fonts stylesheet THIS FAILS THE VALIDATOR as Google fonts inputs a pipe for multiple fonts -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="img/robicon.png" /> 
+  <title>Explore The SPA</title>
+</head>
+
+<body>
+
+  <!-- Start of Nav -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navd">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
+        aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarsDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a type="nav-link" href="#" id="viewCategories">View Categories &raquo;</a>
+          </li>
+  
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="mountains.html">Mountains</a>
+          </li> -->
+  
+        </ul>
+      </div>
+      <!-- End of Nav -->
+    </nav>
+
+  <!-- Main jumbotron -->
+  <header>
+
+    <div class="container">
+      <div class="py-3"><br /></div>
+      <!-- <a href="#" target="_self"> -->
+      <div class="jumbotron text-white shadow">
+        <div class="text-center" id="jumboText">
+          <h1 class="display-4 font-italic">Explore The SPA</h1>
+          <p class="lead my-3 pTop">Spa</p>
+        </div>
+      </div>
+    <!-- </a> -->
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- <section class="container text-center mt-5">
+      <p><button type="button" id="viewCategories">View Categories &raquo;</button></p>
+    </section> -->
+
+    <section id="categoryContainer" class="hidden">
+      <div class="container text-center mt-5 dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="viewCategories" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Categories
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="categoryList">
+        </div>
+      </div>
+    </section>
+
+    <section class="container hidden" id="servicesContainer">
+      <div class="row">
+        <div class="col-md-5">
+          <h3 id="categoryName">&nbsp;</h3>
+          <ul id="servicesList" class="list-group"></ul>
+        </div>
+        <div class="col-md-5">
+          <div class="hidden" id="serviceCard">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h4 class="card-title" id="cardTitle">&nbsp;</h4>
+                <p class="card-text" id="cardText1">&nbsp;</p>
+                <p class="card-text" id="cardText2">&nbsp;</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container">
+    <hr />
+    <p>&copy; Adam Jacobs - HartCode Academy 2019</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="scripts/spa.js"></script>
+
+</body>
+
+</html>

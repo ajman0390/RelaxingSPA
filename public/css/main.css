@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(60, 97, 40, 0.171);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.pTop {
+    font-family: 'PT Serif', serif;
+}
+
+#jumboText {
+    color: rgba(247, 247, 247, 0.75);
+}
+
+footer p {
+    float: right;
+}
+
+.jumbotron {
+    border-radius: 25px;
+    margin: 20px;
+    background-image: url("../img/inside-spa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%, 50%;
+    /* background-attachment: fixed; */
+}
+
+.noneImgBorder {
+    border: 0;
+    border-radius: 25px;
+    height: 200px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+/* Add a hover effect (blue/grey shadow) */
+.noneImgBorder:hover {
+    box-shadow: 0 0 2px 1px rgba(10, 44, 53, 0.678);
+  }
+
+.hidden {
+    display: none;
+}
+
+#serviceCard {
+    float: right;
+    padding-top: 2.5em;
+}
