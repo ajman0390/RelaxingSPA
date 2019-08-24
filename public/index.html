@@ -59,6 +59,7 @@
 
   <main>
 
+    <!-- Welcome text on page prior to user actions -->
     <section class="container text-center" id="topSection">
       <h1>EXPERIENCE AJ SPA</h1>
       <p id="topPara">A place to escape the hustle and bustle of town and to relax after a long day. Our therapists are all
@@ -69,6 +70,7 @@
 
     <!-- categoryContainer Secton -->
     <section id="categoryContainer" class="hidden">
+      <!-- THIS FAILS THE VALIDATOR as Error with Dropdown x-placement -->
       <div class="container text-center mt-5 dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
@@ -86,9 +88,12 @@
           <h3 id="categoryName">&nbsp;</h3>
           <ul id="servicesList" class="list-group"></ul>
         </div>
+
+        <!-- Start of Card -->
         <div class="offset-md-2 col-md-3 flipper" id="cardDiv">
           <div class="card hidden" id="serviceCard">
             <div class="card-body">
+              <!-- Front face of card -->
               <div class="front"> 
                   <h4 class="card-title" id="cardFront">&nbsp;</h4>
                 <p>
@@ -97,20 +102,18 @@
                 <small>(Flip over for more details)</small>
               </div>
 
+              <!-- Back face of card -->
               <div class="back">
                 <h4 class="card-title" id="cardTitle">&nbsp;</h4>
                 <h6 class="card-subtitle mb-2 text-muted" id="cardTime">&nbsp;</h6>
                 <p class="card-text" id="cardText1">&nbsp;</p>
                 <p class="card-text" id="cardText2">&nbsp;</p>
               </div>
-
             </div> <!-- /cardbody -->
-
           </div>
-        </div>
+        </div> <!-- /Card -->
       </div>
     </section>
-
 
   </main>
 

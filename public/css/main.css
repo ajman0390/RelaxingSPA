@@ -2,15 +2,16 @@ body {
     background-color: rgba(152, 179, 255, 0.555);
 }
 
-h1 {
+h1, h3, h4, h6 {
     font-family: 'Cinzel', serif;
 }
 
 .pTop {
     font-family: 'Satisfy', cursive;
 }
-#topPara {
+#topPara, .cardText {
     font-family: 'Martel', serif;
+    padding: 5px;
 }
 
 a:hover {
@@ -61,22 +62,20 @@ footer p {
     width: 250px;
 }
 
-#serviceCard {
-    padding-top: 2.5em;;
-    width: 18rem
-}
-
 #servicesList li {
     background-color: rgba(176, 152, 255, 0.753);
 }
 #servicesList li:hover {
-    background-color: rgba(124, 91, 230, 1)
+    background-color: rgba(124, 91, 230, 1);
+    box-shadow: 0 0 5px 1px rgba(10, 44, 53, 0.884);
 }
 
 #cardDiv {
     margin-top: 20px;
 }
-.card {
+#serviceCard {
+    padding-top: 2.5em;;
+    width: 18rem;
     text-align: center;
     color: #FFFFFF;
     width: 100%;
@@ -96,7 +95,7 @@ footer p {
 /* Flip the pane when hovered, Add a hover effect (blue/grey shadow) */
 #cardDiv:hover .card {
     transform: rotateY(180deg);
-    box-shadow: 0 0 2px 1px rgba(10, 44, 53, 0.678);
+    box-shadow: 0 0 5px 1px rgba(10, 44, 53, 0.884);
 }
 
 .front, .back {
@@ -118,6 +117,7 @@ footer p {
 .back {
     transform: rotateY(180deg);
     height: 100%;
+    background-color: rgb(91, 198, 230)
 }
 
 #topSection {
