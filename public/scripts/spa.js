@@ -53,8 +53,7 @@ function getServices(category) {
         for (let i = 0; i < servicesLen; i++) {
             $('#servicesList').append($('<li />')
                 .text(services[i].ServiceName)
-                .attr('class', 'list-group-item list-group-item-action')
-                .attr('href', '#')
+                .attr('class', 'list-group-item')
                 .on('click', function (e) {
                     e.preventDefault();
                     getService(services[i].ServiceID);
@@ -67,15 +66,19 @@ function getServices(category) {
 /*
 * This funciton populates the card content of the selected service 
 *
-* @input serviceId (services obj ServiceID value) - The selceted services obj ServiceID value
+* @input serviceId (services obj ServiceID value) - The selceted services obj ServiceID value to
+* access obj data into service variable
 */
 function getService(serviceId) {
     $.getJSON(`/api/services/${serviceId}`, function (service) {
         $('#cardImg').attr('src', 'img/' + service.Image );
-        $('#cardTitle').html(service.ServiceName);
+        $('#cardImg').attr('alt', service.ServiceName + 'Image' );
+        $('#cardFront').html(service.ServiceName);
+        $('#cardTitle').html(service.ServiceName); 
+        $('#cardTime').html('(' + service.Minutes + ' Minutes)'); 
         $('#cardText1').html(service.Description);
         $('#cardText2').html('$' + Number(service.Price).toFixed(2));
-        $('#serviceCard').fadeIn();
+        $('#serviceCard').delay('10').fadeIn();
     })
 }
 

@@ -141,7 +141,7 @@
         "Price": "125.00",
         "Minutes": "60",
         "CategoryName": "Hair Salon",
-        "Image": "oldwomenshair.png"
+        "Image": "womenshairservice1.png"
     },    
     {
         "ServiceID": "HAIR3",
@@ -150,7 +150,7 @@
         "Price": "210.00",
         "Minutes": "80",
         "CategoryName": "Hair Salon",
-        "Image": "womenshaircut.png"
+        "Image": "womens-hair-2.png"
     },    
     {
         "ServiceID": "NAIL1",
@@ -159,7 +159,7 @@
         "Price": "140.00",
         "Minutes": "75",
         "CategoryName": "Nail Salon",
-        "Image": "nail1.png"
+        "Image": "nail2.png"
     },    
     {
         "ServiceID": "NAIL2",
@@ -168,7 +168,7 @@
         "Price": "75.00",
         "Minutes": "50",
         "CategoryName": "Nail Salon",
-        "Image": "nail2.png"
+        "Image": "pedicure-1.png"
     },    
     {
         "ServiceID": "NAIL3",

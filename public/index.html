@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="css/main.css">
 
   <!-- Google fonts stylesheet THIS FAILS THE VALIDATOR as Google fonts inputs a pipe for multiple fonts -->
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Martel|Satisfy&display=swap" rel="stylesheet">
 
   <link rel="icon" href="img/robicon.png" />
-  <title>SPA Spa</title>
+  <title>AJ SPA</title>
 </head>
 
 <body>
@@ -45,11 +45,11 @@
 
     <div class="container">
       <div class="py-3"><br /></div>
-      <a href="#" class="viewCat">
+      <a href="#" class="viewCat" title="Click to View Spa Services" >
         <div class="jumbotron text-white shadow-lg">
           <div class="text-center" id="jumboText">
-            <h1 class="display-4 font-italic">Explore the SPA</h1>
-            <p class="lead my-3 pTop">Spa</p>
+            <h1 class="display-4 font-italic">Explore AJ SPA</h1>
+            <p class="lead my-3 pTop">A place to relax</p>
           </div>
         </div>
       </a>
@@ -60,8 +60,11 @@
   <main>
 
     <section class="container text-center" id="topSection">
-      <h1>EXPERIENCE</h1>
-      <p>A place to escape the hustle and bustle of town and to relax after a long day. Our therapists are all constantly being trained by our experienced specialists. We want you to enjoy an amazing spa experience, if something is not on the menu or you wish to make changes please do not hesitate to ask our team. All treatments will be tailored to your preferences and requirements.</p>
+      <h1>EXPERIENCE AJ SPA</h1>
+      <p id="topPara">A place to escape the hustle and bustle of town and to relax after a long day. Our therapists are all
+        constantly being trained by our experienced specialists. We want you to enjoy an amazing spa experience, if
+        something is not on the menu or you wish to make changes please do not hesitate to ask our team. All treatments
+        will be tailored to your preferences and requirements.</p>
     </section>
 
     <!-- categoryContainer Secton -->
@@ -77,34 +80,32 @@
     </section>
 
     <!-- servicesContainer Secton -->
-
     <section class="container hidden" id="servicesContainer">
       <div class="row">
         <div class="offset-md-1 col-md-5">
           <h3 id="categoryName">&nbsp;</h3>
           <ul id="servicesList" class="list-group"></ul>
         </div>
-        <div class="col-md-5 flipper">
-          <div class="card hidden" id="serviceCard" style="width: 18rem;">
-            <!-- <div class="card" style="width: 18rem;"> -->
+        <div class="offset-md-2 col-md-3 flipper" id="cardDiv">
+          <div class="card hidden" id="serviceCard">
             <div class="card-body">
-              <div class="front">
+              <div class="front"> 
+                  <h4 class="card-title" id="cardFront">&nbsp;</h4>
                 <p>
-                  <img class="card-img-top" id="cardImg">
+                  <img class="card-img-top" id="cardImg" src="#" alt="#">
                 </p>
-                <p>Hover to Flip for more details</p>
-                <!-- </div> -->
+                <small>(Flip over for more details)</small>
               </div>
-            
-            <div class="back">
-                
+
+              <div class="back">
                 <h4 class="card-title" id="cardTitle">&nbsp;</h4>
+                <h6 class="card-subtitle mb-2 text-muted" id="cardTime">&nbsp;</h6>
                 <p class="card-text" id="cardText1">&nbsp;</p>
                 <p class="card-text" id="cardText2">&nbsp;</p>
               </div>
 
-            </div>
-            
+            </div> <!-- /cardbody -->
+
           </div>
         </div>
       </div>
