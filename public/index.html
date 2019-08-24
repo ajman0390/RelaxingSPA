@@ -14,93 +14,110 @@
   <link rel="stylesheet" href="css/main.css">
 
   <!-- Google fonts stylesheet THIS FAILS THE VALIDATOR as Google fonts inputs a pipe for multiple fonts -->
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif|Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Martel|Satisfy&display=swap" rel="stylesheet">
 
-  <link rel="icon" href="img/robicon.png" /> 
-  <title>Explore The SPA</title>
+  <link rel="icon" href="img/robicon.png" />
+  <title>AJ SPA</title>
 </head>
 
 <body>
 
   <!-- Start of Nav -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navd">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
-        aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarsDefault">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-              <a type="nav-link" href="#" id="viewCategories">View Categories &raquo;</a>
-          </li>
-  
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="mountains.html">Mountains</a>
-          </li> -->
-  
-        </ul>
-      </div>
-      <!-- End of Nav -->
-    </nav>
+    <a class="navbar-brand" id="homeNav" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsDefault"
+      aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#" class="viewCat nav-link" id="viewCategories">View Categories &raquo;</a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of Nav -->
+  </nav>
 
   <!-- Main jumbotron -->
   <header>
 
     <div class="container">
       <div class="py-3"><br /></div>
-      <!-- <a href="#" target="_self"> -->
-      <div class="jumbotron text-white shadow">
-        <div class="text-center" id="jumboText">
-          <h1 class="display-4 font-italic">Explore The SPA</h1>
-          <p class="lead my-3 pTop">Spa</p>
+      <a href="#" class="viewCat" title="Click to View Spa Services" >
+        <div class="jumbotron text-white shadow-lg">
+          <div class="text-center" id="jumboText">
+            <h1 class="display-4 font-italic">Explore AJ SPA</h1>
+            <p class="lead my-3 pTop">A place to relax</p>
+          </div>
         </div>
-      </div>
-    <!-- </a> -->
+      </a>
     </div>
 
   </header>
 
   <main>
 
-    <!-- <section class="container text-center mt-5">
-      <p><button type="button" id="viewCategories">View Categories &raquo;</button></p>
-    </section> -->
+    <!-- Welcome text on page prior to user actions -->
+    <section class="container text-center" id="topSection">
+      <h1>EXPERIENCE AJ SPA</h1>
+      <p id="topPara">A place to escape the hustle and bustle of town and to relax after a long day. Our therapists are all
+        constantly being trained by our experienced specialists. We want you to enjoy an amazing spa experience, if
+        something is not on the menu or you wish to make changes please do not hesitate to ask our team. All treatments
+        will be tailored to your preferences and requirements.</p>
+    </section>
 
+    <!-- categoryContainer Secton -->
     <section id="categoryContainer" class="hidden">
+      <!-- THIS FAILS THE VALIDATOR as Error with Dropdown x-placement -->
       <div class="container text-center mt-5 dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="viewCategories" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
-          Categories
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Services
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="categoryList">
+        <div class="dropdown-menu" id="categoryList">
         </div>
       </div>
     </section>
 
+    <!-- servicesContainer Secton -->
     <section class="container hidden" id="servicesContainer">
       <div class="row">
-        <div class="col-md-5">
+        <div class="offset-md-1 col-md-5">
           <h3 id="categoryName">&nbsp;</h3>
           <ul id="servicesList" class="list-group"></ul>
         </div>
-        <div class="col-md-5">
-          <div class="hidden" id="serviceCard">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body">
+
+        <!-- Start of Card -->
+        <div class="offset-md-2 col-md-3 flipper" id="cardDiv">
+          <div class="card hidden" id="serviceCard">
+            <div class="card-body">
+              <!-- Front face of card -->
+              <div class="front"> 
+                  <h4 class="card-title" id="cardFront">&nbsp;</h4>
+                <p>
+                  <img class="card-img-top" id="cardImg" src="#" alt="#">
+                </p>
+                <small>(Flip over for more details)</small>
+              </div>
+
+              <!-- Back face of card -->
+              <div class="back">
                 <h4 class="card-title" id="cardTitle">&nbsp;</h4>
+                <h6 class="card-subtitle mb-2 text-muted" id="cardTime">&nbsp;</h6>
                 <p class="card-text" id="cardText1">&nbsp;</p>
                 <p class="card-text" id="cardText2">&nbsp;</p>
               </div>
-            </div>
+            </div> <!-- /cardbody -->
           </div>
-        </div>
+        </div> <!-- /Card -->
       </div>
     </section>
 
   </main>
 
+  <!-- Footer -->
   <footer class="container">
     <hr />
     <p>&copy; Adam Jacobs - HartCode Academy 2019</p>
