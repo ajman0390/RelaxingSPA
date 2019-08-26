@@ -12,6 +12,12 @@ $(function () {
         $('#categoryContainer').fadeIn();
         $('#servicesContainer').fadeOut();
     })
+    $('#categoryDropdown').on('click', function () {
+        $('.jumbotron').slideUp();
+    });
+    $('#viewCategories').on('click', function () {
+        $('.jumbotron').slideDown();
+    });
 });
 
 /*
@@ -88,5 +94,6 @@ function getService(serviceId) {
 $('#homeNav').on('click', function () {
     $('#categoryContainer').fadeOut();
     $('#servicesContainer').fadeOut();
+    $('.jumbotron').slideDown();
     $('#topSection').slideDown();
 });

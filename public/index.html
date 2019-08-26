@@ -13,8 +13,8 @@
   <!-- Added CSS file-->
   <link rel="stylesheet" href="css/main.css">
 
-  <!-- Google fonts stylesheet THIS FAILS THE VALIDATOR as Google fonts inputs a pipe for multiple fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Cinzel|Martel|Satisfy&display=swap" rel="stylesheet">
+  <!-- Google fonts stylesheet for multiple fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel%7CMartel%7CSatisfy&display=swap" rel="stylesheet">
 
   <link rel="icon" href="img/robicon.png" />
   <title>AJ SPA</title>
@@ -72,7 +72,7 @@
     <section id="categoryContainer" class="hidden">
       <!-- THIS FAILS THE VALIDATOR as Error with Dropdown x-placement -->
       <div class="container text-center mt-5 dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="categoryDropdown" data-toggle="dropdown" aria-haspopup="true"
           aria-expanded="false">
           Services
         </button>
@@ -85,7 +85,7 @@
     <section class="container hidden" id="servicesContainer">
       <div class="row">
         <div class="offset-md-1 col-md-5">
-          <h3 id="categoryName">&nbsp;</h3>
+          <h2 id="categoryName">&nbsp;</h2>
           <ul id="servicesList" class="list-group"></ul>
         </div>
 
@@ -95,7 +95,7 @@
             <div class="card-body">
               <!-- Front face of card -->
               <div class="front"> 
-                  <h4 class="card-title" id="cardFront">&nbsp;</h4>
+                  <h3 class="card-title" id="cardFront">&nbsp;</h3>
                 <p>
                   <img class="card-img-top" id="cardImg" src="#" alt="#">
                 </p>
